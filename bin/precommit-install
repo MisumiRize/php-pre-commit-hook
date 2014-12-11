@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+if (file_exists($a = dirname(dirname(dirname(__DIR__))).DIRECTORY_SEPARATOR.'autoload.php')) {
+    require_once $a;
+} else {
+    require_once dirname(__DIR__).DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
+}
+
+use Lethe\GitValidate\Installation;
+
+$ins = new Installation();
+$ins->copy(dirname(__DIR__).DIRECTORY_SEPARATOR.'validate.json', '.validate.json');
+$ins->installHooks(['pre-commit']);
