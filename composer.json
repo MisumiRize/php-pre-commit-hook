@@ -2,6 +2,7 @@
     "name": "misumirize/pre-commit-hook",
     "type": "library",
     "description": "Git pre-commit hook validation",
+    "license": "MIT",
     "authors": [
         {
             "name": "Misumi Rize",
