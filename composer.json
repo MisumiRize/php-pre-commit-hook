@@ -8,7 +8,7 @@
     ],
     "require": {
         "fabpot/php-cs-fixer": "*",
-        "misumirize/git-validate": "~0.1",
+        "misumirize/git-validate": "0.1.*",
         "phpmd/phpmd": "*",
         "phpunit/phpunit": "*"
     },
