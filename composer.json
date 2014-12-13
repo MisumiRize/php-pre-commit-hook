@@ -1,5 +1,7 @@
 {
-    "name": "misumirize/precommit-hook",
+    "name": "misumirize/pre-commit-hook",
+    "type": "library",
+    "description": "Git pre-commit hook validation",
     "authors": [
         {
             "name": "Misumi Rize",
@@ -7,12 +9,13 @@
         }
     ],
     "require": {
+        "php": ">=5.4",
         "fabpot/php-cs-fixer": "*",
         "misumirize/git-validate": "0.1.*",
         "phpmd/phpmd": "*",
         "phpunit/phpunit": "*"
     },
     "bin": [
-        "bin/precommit-install"
+        "bin/pre-commit-install"
     ]
 }
