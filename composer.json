@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "misumirize/git-validate": "~0.1",
+        "misumirize/git-validate": "~0.1"
     },
     "suggest": {
         "fabpot/php-cs-fixer": "*",
